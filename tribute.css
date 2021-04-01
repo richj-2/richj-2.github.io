@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem;
+  }
+
+.ninja {
+    font-family: monospace,sans;
+    color: blue;
+  }
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  
+  }
+
+#title {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+#tribute-info, #tribute-info2 {
+    background-color: #D3D3D3;
+}
+
+#tribute-info {
+  text-align: left;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
